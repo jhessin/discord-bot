@@ -734,6 +734,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"coingecko-api-v3@npm:^0.0.12":
+  version: 0.0.12
+  resolution: "coingecko-api-v3@npm:0.0.12"
+  checksum: c18b4fec45adaba001f353c4f505e38ac1a26aef3c2d677747c472b4d6145b3bddcdd7d2fdfe87b01b0d83cea9d1599d94b61977cb67c68be074c8f03fa1b889
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^2.0.1":
   version: 2.0.1
   resolution: "color-convert@npm:2.0.1"
@@ -953,6 +960,7 @@ __metadata:
     "@types/fb-watchman": ^2
     "@types/node": ^16.3.1
     "@yarnpkg/pnpify": ^3.0.0-rc.10
+    coingecko-api-v3: ^0.0.12
     discord.js: ^12.5.3
     dotenv: ^10.0.0
     nodemon: ^2.0.12

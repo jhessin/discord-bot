@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/fb-watchman", "npm:2.0.1"],
             ["@types/node", "npm:16.3.1"],
             ["@yarnpkg/pnpify", "virtual:34fd0d25a938b955ce8f55b57dee05acf37f28b7c725e570c7f5892cd7f5f471167f4c3d57cc219028161f96d6210b08b1a3926170dc24c1614a9b442a728c51#npm:3.0.0-rc.10"],
+            ["coingecko-api-v3", "npm:0.0.12"],
             ["discord.js", "npm:12.5.3"],
             ["dotenv", "npm:10.0.0"],
             ["nodemon", "npm:2.0.12"],
@@ -887,6 +888,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["coingecko-api-v3", [
+        ["npm:0.0.12", {
+          "packageLocation": "./.yarn/cache/coingecko-api-v3-npm-0.0.12-4aa32b0315-c18b4fec45.zip/node_modules/coingecko-api-v3/",
+          "packageDependencies": [
+            ["coingecko-api-v3", "npm:0.0.12"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["color-convert", [
         ["npm:2.0.1", {
           "packageLocation": "./.yarn/cache/color-convert-npm-2.0.1-79730e935b-3d5d8a011a.zip/node_modules/color-convert/",
@@ -1167,6 +1177,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/fb-watchman", "npm:2.0.1"],
             ["@types/node", "npm:16.3.1"],
             ["@yarnpkg/pnpify", "virtual:34fd0d25a938b955ce8f55b57dee05acf37f28b7c725e570c7f5892cd7f5f471167f4c3d57cc219028161f96d6210b08b1a3926170dc24c1614a9b442a728c51#npm:3.0.0-rc.10"],
+            ["coingecko-api-v3", "npm:0.0.12"],
             ["discord.js", "npm:12.5.3"],
             ["dotenv", "npm:10.0.0"],
             ["nodemon", "npm:2.0.12"],

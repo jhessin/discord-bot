@@ -15,6 +15,7 @@
   },
   "license": "GPL3",
   "dependencies": {
+    "coingecko-api-v3": "^0.0.12",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.12",
