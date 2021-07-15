@@ -7,7 +7,7 @@ interface MyClient extends Client {
   commands?: Collection<string, Command>;
 }
 
-const client: MyClient = new Discord.Client();
+const client: MyClient = new Client();
 const token = process.env.BOT_TOKEN;
 
 client.commands = new Discord.Collection();
