@@ -1,15 +1,12 @@
 import { Command } from "../types";
 
-const cmd: Command = {
-  name: "!user-info",
-  description: "Returns info for the current user",
-  execute(msg) {
+module.exports = new Command(
+  "!user-info",
+  "Returns info for the current user",
+  (msg) => {
     msg.author &&
       msg.reply(
-        `User id: ${msg.author.id}
-Created at: ${msg.author.createdAt}`
+        `User id: ${msg.author.id}\nCreated at: ${msg.author.createdAt}`
       );
-  },
-};
-
-module.exports = cmd;
+  }
+);

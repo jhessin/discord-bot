@@ -1,7 +1,15 @@
 import { Message } from "discord.js";
 
-export interface Command {
+export type IExecute = (msg: Message, ...args: string[]) => void;
+
+export class Command {
   name: string;
   description: string;
-  execute: (msg: Message, args?: string[]) => void;
+  execute: IExecute;
+
+  constructor(name: string, description: string, execute: IExecute) {
+    this.name = name;
+    this.description = description;
+    this.execute = execute;
+  }
 }

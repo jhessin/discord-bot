@@ -1,15 +1,12 @@
 import { Command } from "../types";
 
-const cmd: Command = {
-  name: "!server-info",
-  description: "Get information for the current server",
-  execute(msg) {
+module.exports = new Command(
+  "!server-info",
+  "Get information for the current server",
+  (msg) => {
     msg.guild &&
       msg.reply(
-        `Server Name: ${msg.guild.name}
-Total members: ${msg.guild.memberCount}`
+        `Server Name: ${msg.guild.name}\nTotal members: ${msg.guild.memberCount}`
       );
-  },
-};
-
-module.exports = cmd;
+  }
+);

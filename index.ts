@@ -35,7 +35,7 @@ client.on("message", (msg) => {
 
   if (client.commands && client.commands.has(args[0])) {
     const cmd = client.commands.get(args[0]);
-    cmd && cmd.execute(msg, args.slice(1));
+    cmd && cmd.execute(msg, ...args.slice(1));
   }
 });
 
